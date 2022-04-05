@@ -150,4 +150,4 @@ python -m unittest discover -s tests
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.txt](https://github.com/pa-aggarwal/playlist-converter/blob/master/LICENSE.txt) for more information.
+Distributed under the MIT License. See [LICENSE.txt](https://github.com/rarchitgupta/playlistConverter/blob/master/LICENSE.txt) for more information.
