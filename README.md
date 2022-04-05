@@ -6,6 +6,8 @@
 
 Convert a text file of songs to a playlist on your <a href="https://open.spotify.com/">Spotify account</a>. Create your playlists faster instead of manually searching for songs.
 
+![screenshot](assets/compressconverter.png)
+
 ## Table of Contents
 
 * [How It Works](#how-it-works)
