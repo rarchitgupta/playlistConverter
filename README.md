@@ -6,10 +6,6 @@
 
 Convert a text file of songs to a playlist on your <a href="https://open.spotify.com/">Spotify account</a>. Create your playlists faster instead of manually searching for songs.
 
-![Demo](./assets/demo.gif)
-
-Recorded using <a href="https://www.screentogif.com/">ScreenToGif</a>.
-
 ## Table of Contents
 
 * [How It Works](#how-it-works)
@@ -58,7 +54,7 @@ python --version
 
 1\. Clone this repository on your machine.
 ```
-git clone https://github.com/pa-aggarwal/playlist-converter.git
+git clone https://github.com/rarchitgupta/playlistConverter.git
 ```
 
 2\. Create a python virtual environment, activate it, and install the packages in the `requirements.txt` file.
@@ -112,8 +108,8 @@ playlist-01.txt playlist-02.txt
 
 $ cat playlist-01.txt
 Name: My Playlist
-3005---Childish Gambino
-See You Again---Tyler, The Creator, Kali Uchis
+All My Life---Foo Fighters
+Light Switch---Charlie Puth
 ...
 ```
 
@@ -125,7 +121,7 @@ data_order = track artist
 data_delimiter = ---
 
 [API]
-user_id = priyaaggarwal
+user_id = rarchit
 access_token = long-key-from-spotify
 ```
 
@@ -151,17 +147,6 @@ To check if tests are passing, run this command:
 ```
 python -m unittest discover -s tests
 ```
-
-## Contributing
-
-Contributions and feedback for improvements as well as new features are welcome!
-1. Fork this repository.
-2. Create a new branch for your contribution (`git checkout -b new-feature`).
-3. Add your contribution, and write tests if needed.
-4. Ensure the test suite passes.
-5. Commit your changes to the branch (`git commit -m "My new feature does X"`).
-6. Push to the branch (`git push origin new-feature`).
-7. Open a pull request.
 
 ## License
 
